@@ -2,14 +2,14 @@
 Predict pokemon type1 category </br>
 Predicts the type of Pokemon from its stats </br>
 This is for Siraj's Pokemon Classifier Contest : https://www.youtube.com/watch?v=0xVqLJe9_CY </br>
-The dataset is taken from Kaggle : https://www.kaggle.com/abcsds/pokemon 
+The dataset is taken from Kaggle. Also provided here as Pokemon.csv : https://www.kaggle.com/abcsds/pokemon 
 
 #Dependencies
 
 Tensorflow (pip install tensorflow) </br>
 NumPy (pip install numpy) </br>
 Pandas (pip install pandas) </br>
-keras(pip install keras) </br>
+keras(pip install keras) (set the tensorflow backend in ~/.keras/keras.json file</br>
 
 #Demo
 
