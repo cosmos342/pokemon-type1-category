@@ -6,17 +6,17 @@ The dataset is taken from Kaggle : https://www.kaggle.com/abcsds/pokemon
 
 #Dependencies
 
-Tensorflow (pip install t) 
-NumPy (pip install numpy) 
-Pandas (pip install pandas) 
-keras(pip install keras)
+Tensorflow (pip install tensorflow) </br>
+NumPy (pip install numpy) </br>
+Pandas (pip install pandas) </br>
+keras(pip install keras) </br>
 
 #Demo
 
 Run in terminal:  </br>
 For training </br>
 $ python pokemonclassification.py --train 40 </br>
-For prediction
+For prediction </br>
 $ python pokemonclassification.py --predict 40 </br>
 
 Results
