@@ -19,7 +19,7 @@ $ python pokemonclassification.py --train 40 </br>
 For prediction </br>
 $ python pokemonclassification.py --predict 40 </br>
 
-Results
+#Results
 
 The neural network built on Keras/Tensorflow is trained to an accuracy of over 90% in a few minutes on CPU. After training,user can run prediction to predict types. During prediction model predicts based on a pretrained model which is trained over 175 batch iterations on CPU.
 
