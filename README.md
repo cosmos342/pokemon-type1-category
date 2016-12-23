@@ -13,11 +13,11 @@ keras(pip install keras)
 
 #Demo
 
-Run in terminal: 
-For training
-$ python pokemonclassification.py --train 40
+Run in terminal:  </br>
+For training </br>
+$ python pokemonclassification.py --train 40 </br>
 For prediction
-$ python pokemonclassification.py --predict 40
+$ python pokemonclassification.py --predict 40 </br>
 
 Results
 
