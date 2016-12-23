@@ -21,6 +21,10 @@ parser.add_argument('--train', type=int,
                     )
 args = parser.parse_args()
 num_predict = args.predict
+if(predict > 100):
+    print("Limiting prediction to 100 samples")
+    predict = 100
+    
 num_iteration = args.train
 
 
