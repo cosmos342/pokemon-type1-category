@@ -21,7 +21,7 @@ $ python pokemonclassification.py --predict 40 </br>
 
 #Results
 
-The neural network built on Keras/Tensorflow is trained to an accuracy of over 90% in a few minutes on CPU. After training,user can run prediction. During prediction model predicts by loading  a pretrained and saved model which is trained over 175 epochs on CPU. 
+The neural network built on Keras/Tensorflow is trained to an accuracy of over 90% in a few minutes on CPU. After training,user can run prediction. For prediction, model predicts by loading  a pretrained and saved model which is trained over 175 epochs on CPU. 
 
 #Credit
 
