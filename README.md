@@ -1,5 +1,5 @@
 # pokemon-type1-category </br>
-predict pokemon type1 category </br>
+Predict pokemon type1 category </br>
 Predicts the type of Pokemon from its stats </br>
 This is a submission for Siraj's Pokemon Classifier Contest : https://www.youtube.com/watch?v=0xVqLJe9_CY </br>
 The dataset is taken from Kaggle : https://www.kaggle.com/abcsds/pokemon 
@@ -14,9 +14,9 @@ keras(pip install keras) </br>
 #Demo
 
 Run in terminal:  </br>
-For training </br>
+**For training </br>
 $ python pokemonclassification.py --train 40 </br>
-For prediction </br>
+**For prediction </br>
 $ python pokemonclassification.py --predict 40 </br>
 
 #Results
