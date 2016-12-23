@@ -22,4 +22,6 @@ Results
 
 The neural network built on Keras/Tensorflow is trained to an accuracy of over 90% in a few minutes on CPU. After training, the user can input the stats of a pokemon, and the model will predict its type. 
 
-I thank Siraj Raval for the contest and video explanations, keras examples for code.
+#Credit
+
+I thank Siraj Raval for the contest and video explanations, keras examples for initial code.
