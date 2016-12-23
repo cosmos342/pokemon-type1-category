@@ -9,7 +9,7 @@ The dataset is taken from Kaggle. Also provided here as Pokemon.csv : https://ww
 Tensorflow (pip install tensorflow) </br>
 NumPy (pip install numpy) </br>
 Pandas (pip install pandas) </br>
-keras(pip install keras) (set the tensorflow backend in ~/.keras/keras.json file</br>
+keras(pip install keras) (set the tensorflow backend in ~/.keras/keras.json file)</br>
 
 #Demo
 
