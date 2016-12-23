@@ -1,7 +1,7 @@
 # pokemon-type1-category </br>
 Predict pokemon type1 category </br>
 Predicts the type of Pokemon from its stats </br>
-This is a submission for Siraj's Pokemon Classifier Contest : https://www.youtube.com/watch?v=0xVqLJe9_CY </br>
+This is for Siraj's Pokemon Classifier Contest : https://www.youtube.com/watch?v=0xVqLJe9_CY </br>
 The dataset is taken from Kaggle : https://www.kaggle.com/abcsds/pokemon 
 
 #Dependencies
@@ -21,7 +21,7 @@ $ python pokemonclassification.py --predict 40 </br>
 
 #Results
 
-The neural network built on Keras/Tensorflow is trained to an accuracy of over 90% in a few minutes on CPU. After training,user can run prediction to predict types. During prediction model predicts based on a pretrained model which is trained over 175 batch iterations on CPU.
+The neural network built on Keras/Tensorflow is trained to an accuracy of over 90% in a few minutes on CPU. After training,user can run prediction. During prediction model predicts by loading  a pretrained and saved model which is trained over 175 batch iterations on CPU.
 
 #Credit
 
