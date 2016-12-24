@@ -1,4 +1,5 @@
- # Pokemon type1 classification </br>
+
+# Pokemon type1 classification </br>
 Predict pokemon type1 category </br>
 Predicts the type of Pokemon from its stats </br>
 This is for Siraj's Pokemon Classifier Contest : https://www.youtube.com/watch?v=0xVqLJe9_CY </br>
@@ -39,4 +40,5 @@ Siraj Raval for the challenge, keras examples for initial code.
 validation accuracy. </br>
 * Divided training input to 630 training samples and 70 validation samples for each epoch and rotated it through each epoch so all the input samples are taken as training aswell as validation samples in different epochs. Here the validation accuracy went up compared to training accuracy </br>
 * Initially tried 2 Fully connected layers with dropout of 0.5 after activation and trained. It gave good validation accuracy of around 60%. However test accuracy was only around 20% </br>
+* Changed the optimizer from adagrad to adam. This also seemed to help
 * Then removed the dropout layer and added batchnormalization before preactivation before each layer. This seemed to make a big difference as the training and validation accuracy went up to 90% within 40 epochs. And test accuracy also went up to 90%.
