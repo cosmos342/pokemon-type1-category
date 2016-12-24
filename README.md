@@ -1,3 +1,4 @@
+
 /
 
 # Pokemon type1 classification </br>
@@ -34,3 +35,5 @@ In the input, removed type1 field. </br>
 Changed input in categorial columns to frequencies. Replaced null fields with null frequency. </br>
 Unit normalized the input(input-mean())/std(). </br>
 Changed the input from pandas to np array. </br>
+From 800 input samples seperated 100 as test samples so that they are not exposed to the model while training </br>
+
