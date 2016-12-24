@@ -1,4 +1,4 @@
-
+/
 
 # Pokemon type1 classification </br>
 Predict pokemon type1 category </br>
@@ -30,7 +30,7 @@ The neural network built on Keras/Tensorflow is trained to an accuracy of over 9
 Siraj Raval for the challenge, keras examples for initial code.
 
 #Notes
-In the input, removed type1 field. <\br>
-Changed input in categorial columns to frequencies. Replaced null fields with null frequency. <\br>
-Unit normalized the input(input-mean())/std(). <\br>
-Changed the input from pandas to np array. <\br>
+In the input, removed type1 field. </br>
+Changed input in categorial columns to frequencies. Replaced null fields with null frequency. </br>
+Unit normalized the input(input-mean())/std(). </br>
+Changed the input from pandas to np array. </br>
